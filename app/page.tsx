@@ -4,15 +4,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '100vh',
-      }}
-    >
-      <h1>Working...</h1>
+    <main className="flex justify-center items-center min-h-screen">
+      <h1 style={inter.style}>Working...</h1>
     </main>
   )
 }
