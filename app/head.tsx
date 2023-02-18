@@ -6,5 +6,5 @@ export default function Head() {
       <meta name="description" content="Testing next 13 features" />
       <link rel="icon" href="/favicon.ico" />
     </>
-  );
+  )
 }
